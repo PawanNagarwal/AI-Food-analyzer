@@ -629,7 +629,7 @@ def apply_mobile_friendly_styling():
     }
 
     /* Hide Streamlit default elements */
-    /*#MainMenu {visibility: hidden;}*/                                           #streamlit icons hide
+    #MainMenu {visibility: hidden;}                                         #streamlit icons hide
     footer {visibility: hidden;}
     .stDeployButton {display: none;}
 
@@ -2049,5 +2049,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
