@@ -14,8 +14,8 @@ import os
 import time
 import pandas as pd
 
-from dotenv import load_dotenv
-load_dotenv() 
+# from dotenv import load_dotenv
+# load_dotenv() 
 
 # Enhanced mobile-first Streamlit page configuration
 st.set_page_config(
@@ -2049,4 +2049,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
